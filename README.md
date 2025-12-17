@@ -19,3 +19,4 @@ Aquí irán las distintas <strong>actividades</strong> y <strong> ejercicos de c
 <li>Conocimiento teórico del DOM (Document Object Model)</li>
 
 <h1>Retos que se tendrán que cumplir en cada sección</h1>
+Ya veremos dijo el ciego
