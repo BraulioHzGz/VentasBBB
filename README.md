@@ -36,8 +36,8 @@ Función enviar la encuesta y limpiar los datos de la encuesta:
 
 
 
-<h1>Retos que se tendrán que cumplir en cada sección</h1>
-# Sección de opinión
+# Retos que se tendrán que cumplir en cada sección</h1>
+<h1>Sección de opinión</h1>
 <li>Si se selecciona el botón de Limpiar aunque no haya nada ingresado aún, cumple su función, pero primero debería validar que haya algo seleccionado</li>
 <li>Cuando se guarda el cuestionario, el alert debería mostrar que categoría seleccionó el usuario</li>
 <li>Se debería preguntar al usuario si realmente quiere limpiar todos los datos al darle click al botón de "Limpiar" si solo sí, hay algo seleccionado ¿no crees?</li>
