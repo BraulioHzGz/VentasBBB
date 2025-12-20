@@ -28,6 +28,16 @@ Función para mostrar u ocultar la tabla según el valor del select
 Funciones para manejar la parte de recopilación de datos del formulario y su validación
 <img width="1131" height="763" alt="image" src="https://github.com/user-attachments/assets/3e06e675-01ae-4d4c-9cf7-6aaf271e2868" />
 
+Funcion completa para validar datos del formulario con sweetalerts
+<img width="988" height="789" alt="image" src="https://github.com/user-attachments/assets/7df329b0-f7fe-430e-b993-fffdca832d36" />
+
+Función enviar la encuesta y limpiar los datos de la encuesta:
+<img width="1028" height="667" alt="image" src="https://github.com/user-attachments/assets/6e99fae9-add8-49e8-b598-dc9dc2c3dec0" />
+
+
 
 <h1>Retos que se tendrán que cumplir en cada sección</h1>
-Ya veremos dijo el ciego
+# Sección de opinión
+<li>Si se selecciona el botón de Limpiar aunque no haya nada ingresado aún, cumple su función, pero primero debería validar que haya algo seleccionado</li>
+<li>Cuando se guarda el cuestionario, el alert debería mostrar que categoría seleccionó el usuario</li>
+<li>Se debería preguntar al usuario si realmente quiere limpiar todos los datos al darle click al botón de "Limpiar" si solo sí, hay algo seleccionado ¿no crees?</li>
