@@ -43,7 +43,7 @@ Función enviar la encuesta y limpiar los datos de la encuesta:
 <li>Se debería preguntar al usuario si realmente quiere limpiar todos los datos al darle click al botón de "Limpiar" si solo sí, hay algo seleccionado ¿no crees?</li>
 
 <h1>Sección de sucursales</h1>
-<li>Al cargar la tabla, aparece con una sucursal por default sin ni siquiera haber seleccionado un país, lo cuál es erróneo. Se debe corregir eso para la tabla aparezca hasta que el usuario le de click al botón de buscar una vez que se hayan validado todos los parámetros.</li>
+<li>Al cargar la tabla, aparece con una sucursal por default sin ni siquiera haber seleccionado un estado, lo cuál es erróneo. Se debe corregir eso para la tabla aparezca hasta que el usuario le de click al botón de buscar una vez que se hayan validado todos los parámetros.</li>
 <li>Al buscar por delegación y estado no hace ese cambio, como si el filtrado no hubiera funcionado. Se debe corregir el filtrado</li>
 <li>Cuando se busca por estado y delegación, hay un bug que no permite mostrar la delegación ni su abreviatura, se debe corregir ese bug en la página</li>
 <li>Además de mostrar en la tabla "No hay sucursales disponibles" al no haber coincidencia, se debería mostrar una alert para usuarios que son despistados y no leen</li>
