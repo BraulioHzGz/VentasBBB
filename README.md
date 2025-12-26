@@ -18,23 +18,6 @@ Aquí irán las distintas <strong>actividades</strong> y <strong> ejercicos de c
 <li>Manejo de funciones sin parámetros, con parámetros, funciones anónimas y funciones flecha</li>
 <li>Conocimiento teórico del DOM (Document Object Model)</li>
 
-# Funciones trabajadas en Funciones_Opinion.js:
-Función para rellenar datos del usuario y la fecha en los input
-<img width="911" height="186" alt="image" src="https://github.com/user-attachments/assets/a0dc4cd6-ea9f-409d-806c-9150434ce4a5" />
-
-Función para mostrar u ocultar la tabla según el valor del select
-<img width="742" height="322" alt="image" src="https://github.com/user-attachments/assets/d8399dbe-29d2-4dda-856f-14b0edf92eb4" />
-
-Funciones para manejar la parte de recopilación de datos del formulario y su validación
-<img width="1131" height="763" alt="image" src="https://github.com/user-attachments/assets/3e06e675-01ae-4d4c-9cf7-6aaf271e2868" />
-
-Funcion completa para validar datos del formulario con sweetalerts
-<img width="988" height="789" alt="image" src="https://github.com/user-attachments/assets/7df329b0-f7fe-430e-b993-fffdca832d36" />
-
-Función enviar la encuesta y limpiar los datos de la encuesta:
-<img width="1028" height="667" alt="image" src="https://github.com/user-attachments/assets/6e99fae9-add8-49e8-b598-dc9dc2c3dec0" />
-
-
 
 # Retos que se tendrán que cumplir en cada sección</h1>
 <h1>Sección de opinión</h1>
@@ -42,8 +25,31 @@ Función enviar la encuesta y limpiar los datos de la encuesta:
 <li>Cuando se guarda el cuestionario, el alert debería mostrar que categoría seleccionó el usuario</li>
 <li>Se debería preguntar al usuario si realmente quiere limpiar todos los datos al darle click al botón de "Limpiar" si solo sí, hay algo seleccionado ¿no crees?</li>
 
+
 <h1>Sección de sucursales</h1>
 <li>Al cargar la tabla, aparece con una sucursal por default sin ni siquiera haber seleccionado un estado, lo cuál es erróneo. Se debe corregir eso para la tabla aparezca hasta que el usuario le de click al botón de buscar una vez que se hayan validado todos los parámetros.</li>
 <li>Al buscar por delegación y estado no hace ese cambio, como si el filtrado no hubiera funcionado. Se debe corregir el filtrado</li>
 <li>Cuando se busca por estado y delegación, hay un bug que no permite mostrar la delegación ni su abreviatura, se debe corregir ese bug en la página</li>
 <li>Además de mostrar en la tabla "No hay sucursales disponibles" al no haber coincidencia, se debería mostrar una alert para usuarios que son despistados y no leen</li>
+
+
+<h1>Sección de productos</h1>
+<li>Cuando un producto tiene 1 estrella, por alguna razón muestra en plural en vez de singular, esto no debe pasar y se tiene que corregir</li>
+<li>Debajo debe la imagen de producto debe aparecer <i><strong>"Producto Real"</strong></i> en vez del nombre del producto, algo que debe corregirse por que así lo pidió el usuario</li>
+<li>¿Para que será la variable <i>esNuevo</i> de los productos? Debe mostrarse en el modal... ¿cómo pudimos olvidarla?</li>
+<li>Si un producto tiene descuento, tal vez deba mostrarse en el modal ¿no crees? Así no engañamos al cliente y no nos cae la voladora de PROFECO</li>
+<li>Si después de aplicar los filtros, no hay algún producto que cumpla con esos parámetros, debería mostrar que no hubo coincidencias ¿cierto?</li>
+<li>Como se comentó, las alerts de ese tipo no deberían mostrarse así, esas son solo para debug, ya que arruinan la experiencia del usuario. Se deben corregir y hacerlas más alusivas con <strong>sweet alert</strong></li>
+<li>Antes de limpiar el filtro, se debería preguntar al usuario sobre esa acción en caso de un dedazo erróneo</li>
+<li>Por alguna razón, al limpiar, los filtros si se limpian correctamente, pero no "refresca" los productos. Soluciona ese bug en la página para evitar malas experiencias de usuario</li>
+
+
+<h1>Sección de carrito</h1>
+<li>Cuando se agrega un producto con color, se debería mostrar el producto con el color ¿no crees?</li>
+<li>El botón de eliminar no hace nada aún, implementar la función o funciones necesarias y modificaciones necesarias para eliminar producto del carrito <i>(pista: investigar el uso de la función splice())</i></li>
+<li>Los productos que tienen un descuento, no muestran de cuánto es y tampoco se ve reflejado el descuento en el subtotal, se debe solucionar eso</li>
+<li>Al eliminar productos con el botón de menos, acepta valores negativos... ¿eso debería pasar?</li>
+<li>Antes de eliminar el producto o los productos, creo se debería pregunta al usuario con un alert ¿no crees?</li>
+<li>Cuando se eliminan todos los productos, la tabla debería mostrar que no hay productos agregar al carrito</li>
+<li>Cuando se ingresa un cupón, se pueden seguir agregando más cupones y genera cierto bug en la aplicación, ¿eso es correcto?</li>
+<li>El botón de "finalizar compra" debería estar inhabilitado si no hay artículos, o en su caso, indicar error</li>
