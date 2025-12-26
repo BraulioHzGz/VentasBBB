@@ -35,7 +35,7 @@ Aquí irán las distintas <strong>actividades</strong> y <strong> ejercicos de c
 
 <h1>Sección de productos</h1>
 <li>Cuando un producto tiene 1 estrella, por alguna razón muestra en plural en vez de singular, esto no debe pasar y se tiene que corregir</li>
-<li>Debajo debe la imagen de producto debe aparecer <i><strong>"Producto Real"</strong></i> en vez del nombre del producto, algo que debe corregirse por que así lo pidió el usuario</li>
+<li>Debajo de la imagen del producto debe aparecer <i><strong>"Producto Real"</strong></i> en vez del nombre del producto, algo que debe corregirse por que así lo pidió el usuario</li>
 <li>¿Para que será la variable <i>esNuevo</i> de los productos? Debe mostrarse en el modal... ¿cómo pudimos olvidarla?</li>
 <li>Si un producto tiene descuento, tal vez deba mostrarse en el modal ¿no crees? Así no engañamos al cliente y no nos cae la voladora de PROFECO</li>
 <li>Si después de aplicar los filtros, no hay algún producto que cumpla con esos parámetros, debería mostrar que no hubo coincidencias ¿cierto?</li>
