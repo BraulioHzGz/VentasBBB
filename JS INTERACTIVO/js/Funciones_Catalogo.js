@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Filtrado por estrellas
         if(estrellasMinimas > 0){
-            productosFiltrados.filter(p => p.estrellas >= estrellasMinimas);
+            productosFiltrados = productosFiltrados.filter(p => p.estrellas >= estrellasMinimas);
         }
 
         // Filtrado por descuentos
@@ -259,3 +259,4 @@ document.addEventListener("DOMContentLoaded", () => {
         spanCarrito.textContent = getTotalArticulos();
     }
 });
+
